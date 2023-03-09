@@ -1,0 +1,46 @@
+.logo {
+    margin: 100px auto;
+    width: 420px;
+    height: 420px;
+    background-color: black;
+    border-radius: 23%;
+    padding: 61px 32px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.circles {
+    isolation: isolate;
+    position: relative;
+}
+
+.circle {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.red {
+    background-color: #eb001b;
+    position: relative;
+    left: -18%;
+}
+
+.orange {
+    position: relative;
+    margin: -63% auto 0;
+    background-color: #f79e1b;
+    mix-blend-mode: hard-light;
+    right: -18%;
+}
+
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
