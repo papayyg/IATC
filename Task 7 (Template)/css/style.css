@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Overpass:wght@300;400;500&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Overpass", sans-serif;
+    color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background: url("../img/bg_1.jpg") no-repeat top / cover;
+    min-height: 700px;
+    position: relative;
+    padding-top: 50px;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+header > * {
+    position: relative;
+    z-index: 2;
+}
+
+.logo {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul > li {
+    transition: 0.5s;
+}
+
+ul > li > a {
+    padding: 30px 20px;
+    font-size: 14px;
+    position: relative;
+}
+
+#active::after {
+    content: "";
+    height: 2px;
+    background: #fff;
+    left: 20px;
+    right: 20px;
+    position: absolute;
+    bottom: 20px;
+}
+
+ul > li:hover {
+    transform: translateY(5px);
+}
+
+.promo {
+    width: 635px;
+    margin: 130px auto 0;
+}
+
+.title {
+    font-family: "Dosis", sans-serif;
+    line-height: 1.1;
+    font-weight: 300;
+    font-size: 70px;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle > ion-icon {
+    font-size: 25px;
+	color: #f7ca44;
+	--ionicon-stroke-width : 30px ;
+	transition: 0.5s;
+}
+
+.text {
+	color: #f7ca44;
+	font-weight: 300;
+	margin-left: 20px;
+	transition: 0.5s;
+}
+
+.btn:hover {
+	transform: scale(1.1)
+}
+
+.btn:hover .text {
+	color: #fff
+}
+
+.btn:hover .circle > ion-icon {
+	color: #fff
+}
+
+.info {
+	padding: 4em 0;
+}
+
+.content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left {
+	background: #f7ca44;
+    padding: 50px;
+	width: 493px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.descr {
+	color: #000;
+	font-size: 30px;
+	font-weight: 300;
+	margin-bottom: 24px;
+}
+
+.descr span {
+	color: #000;
+	font-size: 70px;
+    line-height: 1;
+}
+
+.left_btn {
+	cursor: pointer;
+	background: #fff;
+    color: #000;
+	border-radius: 0px;
+    border: 2px solid transparent;
+    font-size: 14px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+	line-height: 1.5;
+	padding: 8px 16px;
+	box-shadow: 0 5px 20px -5px rgb(0 0 0 / 50%);
+	width: 228px;
+	transition: 0.3s;
+}
+
+.right {
+	width: 552px;
+}
+
+.info_title {
+	color: black;
+	font-family: "Dosis", sans-serif;
+	font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+	margin-bottom: 16px;
+}
+
+.info_descr {
+	color: #555555;
+	font-size: 1.25rem;
+    font-weight: 300;
+	margin-bottom: 16px;
+	line-height: 1.8;
+}
+
+.info_subdescr {
+	font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: #555555;
+	margin-bottom: 24px;
+}
+
+.right_btn {
+	background: #f7ca44;
+    border: 2px solid #f7ca44;
+    color: #fff;
+	font-size: 14px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+	border-radius: 0px;
+	box-shadow: 0 5px 20px -5px rgb(0 0 0 / 50%);
+	line-height: 1.5;
+	padding: 8px 16px;
+	transition: 0.3s;
+}
+
+.left_btn:hover {
+	background: #000;
+	color: #fff;
+}
+
+.right_btn:hover {
+	border-color: #000;
+	background: #000;
+	color: #fff;
+}
+
+.goals {
+	padding: 64px 0;
+}
+
+.items {
+	display: flex;
+	justify-content: space-between;
+}
+
+.item {
+	width: 362px;
+	display: flex;
+}
+
+.right_descr_title {
+	font-size: 18px;
+	color: #000;
+    font-weight: 300;
+    font-family: "Dosis", sans-serif;
+	line-height: 1.2;
+	margin-bottom: 8px;
+}
+
+.right_descr_subtitle {
+	color: #a2a2a2;
+	margin-bottom: 16px;
+	font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+.right_descr_link {
+	color: #f7ca44;
+	text-decoration: underline;
+}
+
+.right_descr_link:hover {
+	text-decoration: none;
+}
+
+.item ion-icon {
+	margin-right: 30px;
+	font-size: 93px;
+	color: #f7ca44;
+    height: 50px;
+}
