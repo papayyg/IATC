@@ -14,3 +14,7 @@
 [Task 6 (Underline Link)](https://papayyg.github.io/IATC/Task%206%20(Underline%20Link)/)
 
 [Task 7 (Template)](https://papayyg.github.io/IATC/Task%207%20(Template)/)
+
+[Task 8 (XeOne)](https://papayyg.github.io/IATC/Task%208%20(XeOne)/)
+
+[Task 9 (Media Query)](https://papayyg.github.io/IATC/Task%209%20(Media%20Query)/)
