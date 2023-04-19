@@ -18,3 +18,11 @@
 [Task 8 (XeOne)](https://papayyg.github.io/IATC/Task%208%20(XeOne)/)
 
 [Task 9 (Media Query)](https://papayyg.github.io/IATC/Task%209%20(Media%20Query)/)
+
+[Task 10 (Snow)](https://papayyg.github.io/IATC/Task%2010%20(Snow)/)
+
+[Task 11 (Smoke)](https://papayyg.github.io/IATC/Task%2011%20(Smoke)/)
+
+[Task 12 (Bootstrap)](https://papayyg.github.io/IATC/Task%2012%20(Bootstrap)/)
+
+[Midterm](https://papayyg.github.io/IATC/Midterm/)
